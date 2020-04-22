@@ -1,0 +1,50 @@
+<form method="post" action="miservidor.php">
+<div>
+ <label for="postal"> Código postal </label>
+ <input id="codigopostal" type="number">
+</div>
+<div>
+ <label for="satisfation"> Nivel de satisfacción con el producto </label>
+ <select id="nivelsatisfaccion">
+  <option value="1"> 1 </option>
+  <option value="2"> 2 </option>
+  <option value="3"> 3 </option>
+  <option value="4"> 4 </option>
+  <option value="5"> 5 </option>
+  </select>
+</div>
+<div>
+ <label for="email"> Email del usuario que ha consumido el producto </label>
+ <input id="emailusuario" type="text">
+</div>
+<div>
+ <label for="positive"> Puntos positivos del producto </label>
+ <textarea> </textarea>
+</div>
+<div>
+ <label for="negative"> Puntos negativos del producto </label>
+ <textarea> </textarea>
+</div>
+<div>
+ <label for="Escala"> Escala de satisfacción </label>
+ <select id="escalasatisfaccion">
+  <option value="Excelente"> Excelente </option>
+  <option value="Bueno"> Bueno </option>
+  <option value="Regular"> Regular </option>
+  <option value="Pesimo"> Pésimo </option>
+  </select>
+</div>
+<div>
+ <label for="Escala"> Escala de satisfacción </label>
+ <select>
+  <input type="text" value="Excelente"> Excelente
+  <input type="text" value="Bueno"> Bueno
+  <input type="text" value="Regular"> Regular
+  <input type="text" value="Pesimo"> Pésimo
+  </select>
+ </div>
+ 
+ <div>
+  <input type="submit" value="Enviar">
+ </div>
+</form>
